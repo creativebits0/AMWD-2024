@@ -1,0 +1,28 @@
+#dsplyData{
+    margin-left: 45%;
+    padding: 20px;
+    border-radius: 5px;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+
+}
+
+.details{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(243, 240, 247);
+    border-radius: 10px;
+    border: 5px double rgb(78, 22, 128);
+    margin: 30px;
+    padding: 20px;
+}
+.id{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px rgb(226, 118, 221);
+    background-color: rgb(161, 141, 179);   
+}

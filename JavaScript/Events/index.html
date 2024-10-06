@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS HANDELING</title>
+</head>
+<body>
+    <h1>Events Handeling</h1>
+
+    <button onclick ="handOn()">Click Me</button>
+    <br> <br>
+    <button onclick ="display()">Show Me</button>
+    <h3 id="display1"></h3>
+    <br> <br>
+    <input type="text" name="" id="inputData" onchange="changeText()">
+    <br><br>
+    <input type="text" name="" id="inputData2" onkeyup="onKeyUp()" onkeydown="onKeyDown()" onkeypress="onKeyPress()">
+    <br><br>
+
+    <div onmouseout="onMouseOut()" onmouseover="onMouseOver()" style=" width:100px; height :100px ;background-color:red;" id="divChange"></div>
+    <br><br> <br>
+
+
+    <!-- script File attaching -->
+    <script src="index.js"></script>
+</body>
+</html>

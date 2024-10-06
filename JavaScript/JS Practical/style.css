@@ -1,0 +1,77 @@
+h2{
+    text-decoration:underline;
+}
+/* Task - 1 --------Form validating using REGEX*/
+.form{
+    border: 1px solid rgb(43, 39, 39);
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Task - 2 -----------------Chat Girl Task*/
+#chat_1{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#chat_2{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+/* Task - 3 -----------------taking input in short form and giving the full form */
+.job{
+    border: 3px double rgb(138, 150, 30);
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+    border-radius: 5px;
+    padding:10px 15px 10px 10px;
+}
+#short{
+    caret-color: rgb(226, 49, 43);
+    padding: 6px;
+}
+
+#display-full{
+    color: red;
+}
+
+/*  Task - 4 -----------------taking 1-100 random numbers in an array and finding module to a 
+ particular given number in an input field */
+
+ .num{
+    border: 3px double rgb(42, 30, 150);
+    margin-top: 20px;
+    width:fit-content;
+    height: 200px;
+    border-radius: 5px;
+    padding:10px 15px 10px 10px;
+    font-size: larger;
+} 
+#random{
+    color: blue;
+    
+}
+#input_num{
+    caret-color: rgb(226, 49, 43);
+    padding: 6px;
+}
+.bold{
+    font-weight: bold;
+}
+#multiple{
+    color: red;
+}
+
+/* Task - 5 ------------------------------- */
+
+.Validity{
+    width: 300px;
+    
+}

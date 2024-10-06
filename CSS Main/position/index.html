@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- cant move any sides using top, bottom,left,right if position static  -->
+    <h2 class="static">POSITION STATIC</h2>
+    <br>
+
+     <!-- can move wherever using top bottom left right if position relative  -->
+    <h2 class="relative">POSITION RELATIVE</h2>
+    <br><br>
+
+    <h2 class="sticky">POSITION STICKY </h2>
+    <br>
+    
+    <!-- can move wherever using top bottom left right if position absolute, it get independent, searching relative parent -->
+    <div style="border: 2px solid black; height: 400px; width: 400;position: relative;">
+        <h2 class="absolute">POSITION ABSOLUTE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci beatae minima nesciunt quos quo ex consequuntur error alias dignissimos accusamus tempore veritatis, doloribus,
+             ab sequi at deserunt necessitatibus porro exercitationem?</p>
+    </div>
+    <br>
+   
+    <div class="fixed"></div>
+
+</body>
+</html>

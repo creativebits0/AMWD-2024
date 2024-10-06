@@ -1,0 +1,23 @@
+
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 10px solid green;
+    transition: background-color 3s, border-radius 5s, font-size 3s, border 3s;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content:hover{
+    background-color: rgb(1, 110, 38);
+    border: 10px solid brown;
+    border-radius: 50%;
+    font-size: 30px;
+}
+

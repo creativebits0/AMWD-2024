@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(153, 89, 155);
+    border-radius: 10px;
+    text-align: center;
+    border:5px double rgb(158, 156, 17);
+    margin: 5px;
+    color: bisque;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_rowReverse > .item ,
+.flex_columnReverse > .item ,
+.flex_center > .item ,
+.flex_around > .item{
+    background-color: rgb(54, 97, 42);
+}
+
+.flex_rowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.flex_columnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex_wrapReverse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_around{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

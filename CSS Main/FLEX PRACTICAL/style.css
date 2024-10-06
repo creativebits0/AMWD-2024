@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.mid{
+    background-color:#095bcc;    
+    /* height: 130px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Nunito',sans-serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    background-color: white;
+    margin: 15px;
+    border-radius: 30px;
+    padding:10px 15px;
+}
