@@ -1,0 +1,118 @@
+body{
+    width: 1280px;
+    height: 832px;
+    border: #032830 1px solid;
+}
+
+/* Navbar */
+.navbar {
+    height: 105px;
+    background-color: #032830;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cap{
+    position: absolute;
+    top: 12px;
+    left: 170px;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+}
+input[type="search"]{
+    width: 288px;
+    height: 40px;
+    background-image: url('./Assets/Search.png');
+    background-position: 10px 5px; 
+    background-repeat: no-repeat;
+}
+input[type="search"]::placeholder {
+    text-align: right;
+}
+.btn {
+    width: 137px;
+    height: 40px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn-outline-success {
+    color: white;
+    border-color:white;;
+}
+
+/* Add student button*/
+.addstd{
+    background-color: #032830;
+    margin-top: 37px;
+    margin-right:12px;
+}
+/* Card Student details */
+.card {
+    width: 355px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFC107;
+    background-clip: border-box;   
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+.card-body{
+    background-color: #032830;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19.36px;   
+}
+
+/* Add student form */
+.stdform{
+    background-color: white;
+    width: 440px;
+    height: 440px;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+#dsply_form{
+    display: none;
+    position: fixed;
+    left: 420px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
+input[type="text"]{
+    border-radius: 6px;
+}
+#overlay{
+    width: 1280px;
+    height: 832px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0,40%);
+    z-index: 999;
+}
